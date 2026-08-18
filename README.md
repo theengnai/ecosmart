@@ -1,58 +1,71 @@
-# Remix of Remix of ECOSMART
+# EcoSmart
 
-This is my design. I want you to, um, make it better as I want to make focus on the chat widget when the page first open. Uh, all with nice animation for sure. Uh, simple animations. Simple engaging animations to open the chat widget and, uh, the voice input at the beginning. So this is the main focus of the website. And make the six items that are on the right and left, um, as separate sections with simple engaging design as well, uh, reflecting the brand identity, which is like you can understand from it. Um, make it creative as well. Um, once I start scrolling, there shouldn't, there should be no scrolling, but they should be as sections and the scroll should be as section under the other sections. So it should be, uh, there should be like a bar on the right side, uh, that indicate that this is like sections scroll, uh, with the sections names, for example. And once people start scrolling, there should be a nice, uh, entrance animation and exiting from each section. And it should not be as scroll. It should be as, uh, like, as it is just one section going into the next section one by one, okay? , uh, that, uh, uh, transition between the sections. So, uh, yeah, uh, this is what I want to do. Uh, engaging, simple design, clean, clear design, uh, for this website.
+A full-stack web application for **EcoSmart** — a Saudi company delivering construction systems, decoration, and finishing products. Aligned to Vision 2030 and the Saudi Building Code.
 
-i want the chat section to be highliy interactive and enging with the shiny ball rotating with very complicated animation that show complexity of the website 
+## Tech Stack
 
+| Layer | Technology |
+|---|---|
+| Framework | [TanStack Start](https://tanstack.com/start) (React 19, SSR) |
+| Routing | [TanStack Router](https://tanstack.com/router) |
+| Styling | [Tailwind CSS v4](https://tailwindcss.com) |
+| UI Components | [shadcn/ui](https://ui.shadcn.com) + [Radix UI](https://www.radix-ui.com) |
+| Animations | [Framer Motion](https://www.framer.com/motion) + [GSAP](https://gsap.com) |
+| Data Fetching | [TanStack Query](https://tanstack.com/query) |
+| Build Tool | [Vite](https://vite.dev) |
+| Language | TypeScript |
 
-Two voices and a data face.
+## Getting Started
 
-Aa
+### Prerequisites
 
-Jost
+- [Node.js 20+](https://nodejs.org) — install via [nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- npm or bun
 
-DISPLAY · WORDMARK
-
-Geometric, light, generously tracked. Headlines, the wordmark,
-
-eyebrows.
-
-Light 300 · Regular 400 · Medium 500
-
-Aa
-
-Hanken Grotesk
-
-BODY · INTERFACE
-
-Humanist, even, highly legible. All running text and product UI.
-
-Light 300 · Regular 400 · Medium 500
-
-Aa
-
-JetBrains Mono
-
-DATA · SPECS
-
-Figures, units, codes, labels and folios. Always uppercase,
-
-tracked.
-
-Regular 400 · Medium 500
-
-
-
-for the animation and interactivity, you are the expert, i can't explain what i want , but i want something highliy engaging and interactive weather in the chat box oor the sections, i want some great animations that when clinet see it say wow
-
-
-## Development
-
-Prefer working locally? You need Node.js and npm — [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating).
+### Install & Run
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
-npm i
+git clone <repository-url>
+cd section-shine-flow
+
+npm install
 npm run dev
 ```
+
+The dev server starts at `http://localhost:3000`.
+
+### Available Scripts
+
+| Script | Description |
+|---|---|
+| `npm run dev` | Start development server with HMR |
+| `npm run build` | Production build (outputs to `.output/`) |
+| `npm run preview` | Preview the production build locally |
+| `npm start` | Run the production server (`node .output/server/index.mjs`) |
+| `npm run lint` | Run ESLint |
+| `npm run format` | Format code with Prettier |
+
+## Project Structure
+
+```
+src/
+├── components/     # Reusable UI components
+├── data/           # Static data and content
+├── hooks/          # Custom React hooks
+├── lib/            # Utilities and helpers
+├── routes/         # File-based routes (TanStack Router)
+├── styles.css      # Global styles + Tailwind base
+├── router.tsx      # Router configuration
+└── server.ts       # SSR server entry point
+```
+
+## Deployment
+
+Build the project then serve the output:
+
+```sh
+npm run build
+npm start          # node .output/server/index.mjs
+```
+
+The `.output/` directory is self-contained and can be deployed to any Node.js host (VPS, Railway, Fly.io, etc.).
