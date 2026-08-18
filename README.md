@@ -39,9 +39,9 @@ The dev server starts at `http://localhost:3000`.
 | Script | Description |
 |---|---|
 | `npm run dev` | Start development server with HMR |
-| `npm run build` | Production build (outputs to `.output/`) |
+| `npm run build` | Production build (outputs to `dist/`) |
 | `npm run preview` | Preview the production build locally |
-| `npm start` | Run the production server (`node .output/server/index.mjs`) |
+| `npm start` | Run the production server (`node dist/server/server.js`) |
 | `npm run lint` | Run ESLint |
 | `npm run format` | Format code with Prettier |
 
