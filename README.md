@@ -45,17 +45,6 @@ Regular 400 · Medium 500
 
 for the animation and interactivity, you are the expert, i can't explain what i want , but i want something highliy engaging and interactive weather in the chat box oor the sections, i want some great animations that when clinet see it say wow
 
-This project was built with [Lovable](https://lovable.dev).
-
-**Live app**: https://section-shine-flow.lovable.app
-
-## Build with Lovable
-
-Continue developing this project in the [Lovable editor](https://lovable.dev/projects/6cb9ea57-4d66-411c-bf3d-d6921aecb5c9).
-
-- **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: every change made in Lovable is committed straight to this repository.
-- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
